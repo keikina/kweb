@@ -1,0 +1,16 @@
+h1 {
+    color:rgba(116, 187, 45, 0.879);
+    text-align:center;
+}
+
+header p {
+    color:rgb(56, 105, 58);
+}
+
+header p span {
+    color:rgb(141, 255, 2);
+}
+
+.color {
+    background-color:rgb(107, 148, 109);
+}

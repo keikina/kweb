@@ -1,0 +1,203 @@
+.btn{
+    position: fixed;
+    top: 52%;
+    left: 40%;
+    
+}
+.btn1{
+    position:fixed;
+    top: 66%;
+    left: 40%;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(64, 1, 1, 0.239);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+button{
+    background-color: rgb(86, 19, 19);
+    color: #000000;
+    width: 250px;
+    height: 80px;
+    font-family:'Bookman, URW Bookman L' serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 15px;
+    letter-spacing: 1px;
+}
+
+.btn1:hover, .btn1:focus, .btn1:active{
+    box-shadow: 0 0 20px rgba(64, 1, 1, 0.239);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* end of buttons*/
+
+.bg{
+    position: absolute;
+    top: -2%;
+    left: 25%;
+    height: 1000px;
+    width: 696px;
+    opacity: 72%;
+    filter: blur(1px);
+}
+
+.lantern{
+    position:fixed;
+    left: 67%;
+    top: -5%;
+    height: 763px;
+    width: 481px;
+    opacity: 50%;
+    filter: drop-shadow(100%);
+    filter: blur(4px);
+    filter: contrast(2%);
+    filter: brightness(0%);
+}
+
+.lantern1{
+    position:fixed;
+    left: 0%;
+    top: -5%;
+    height: 641px;
+    width: 397px;
+    opacity: 50%;
+    filter: drop-shadow(100%);
+    filter: blur(4px);
+    filter: contrast(2%);
+    filter: brightness(0%);
+}
+
+html {
+    background-color: rgb(47, 12, 12)
+}
+/* end of bg*/
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #2a0808;
+    position: fixed;
+    left: 47%;
+    top: 38%;
+    font: 100px;
+    font-size: larger;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        rgb(94, 10, 10)
+    );
+    
+}
+
+.pfp {
+    position:fixed;
+    top: 8%;
+    left: 40%;
+    height: 236px;
+    width: 236px;
+    filter: contrast(5px);
+    border: 9px solid rgb(86, 19, 19)
+    
+}
+/*media query*/
+
+@media screen and (max-width: 480px) { 
+    .pfp {
+    position:fixed;
+    top: 15%;
+    left: 34%;
+    height: 136px;
+    width: 136px;
+    filter: contrast(5px);
+    border: 7px solid rgb(86, 19, 19) 
+    }
+
+    h1 {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #2a0808;
+        position: fixed;
+        left: 37%;
+        top: 35%;
+        font: 100px;
+        font-size: large;
+        background: linear-gradient(
+            to bottom,
+            transparent 50%,
+            rgb(94, 10, 10)
+        )
+    }
+
+    .bg {
+        position: absolute;
+        top: -2%;
+        left: 0%;
+        height: 800px;
+        width: 480px;
+        opacity: 72%;
+        filter: blur(1px);
+    }
+
+    .btn{
+        position: fixed;
+        top: 52%;
+        left: 30%;
+        
+    }
+
+    .btn1{
+        position:fixed;
+        top: 66%;
+        left: 30%;
+    }
+
+    button{
+        background-color: rgb(86, 19, 19);
+        color: #000000;
+        width: 200px;
+        height: 70px;
+        font-family:'Bookman, URW Bookman L' serif;
+        font-size:15px;
+        text-transform: capitalize;
+        font-weight: 700;
+        border-radius: 15px;
+        letter-spacing: 1px;
+    }
+
+    .lantern{
+        position:fixed;
+        left: 60%;
+        top: -2%;
+        height: 363px;
+        width: 181px;
+        opacity: 50%;
+        filter: drop-shadow(100%);
+        filter: blur(4px);
+        filter: contrast(2%);
+        filter: brightness(0%);
+    }
+
+    .lantern1{
+        position:fixed;
+        left: 0%;
+        top: -5%;
+        height: 441px;
+        width: 197px;
+        opacity: 50%;
+        filter: drop-shadow(100%);
+        filter: blur(4px);
+        filter: contrast(2%);
+        filter: brightness(0%);
+    }
+
+} 
+
+@media screen and (max-width: 1300px) {
+    .web {
+        max-width:1300px;
+    }
+
+}

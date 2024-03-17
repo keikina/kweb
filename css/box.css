@@ -1,0 +1,33 @@
+.box-a {
+    background-color:rgb(114, 114, 114);
+    margin-bottom: 20px;
+}
+.box-b {
+    background-color:rgb(117, 150, 50);
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+}
+.box-c {
+    background-color:darkgreen;
+    padding: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.62);
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+}
+.box-d {
+    background-color:rgb(170, 137, 94);
+    margin-bottom: 20px;
+    width: 316px;
+    height: 150px;
+}
+.box-e {
+    background-color: rgb(255, 232, 56);
+    padding: 30px;
+    border: 3px solid rgb(255, 255, 111);
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+}
